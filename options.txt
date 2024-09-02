@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\ura\Desktop\LR_scripts\script1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\ura\desktop\lr_scripts\script1\\logfile.log
+c:\users\ura\desktop\lr_scripts\script1\\combined_script1.c
+c:\users\ura\desktop\lr_scripts\script1\\pre_cci.c

@@ -1,0 +1,71 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2021
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2021.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2021.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+__main__=__main__.c
+login=login.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+__main__=1
+login=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+__main__=0
+login=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+__main__=1
+login=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+__main__=cci
+login=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="login_started_T001__*delimiter*__login_SignIn_T002__*delimiter*__login_SignOut_T003"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+login_started_T001=
+login_SignIn_T002=
+login_SignOut_T003=
+[Rendezvous]
+LandingPage=
